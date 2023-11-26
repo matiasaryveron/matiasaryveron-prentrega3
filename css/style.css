@@ -1,101 +1,112 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-    }
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
 @font-face {
-    font-family: "Rackmon Demo";
-    src: url(../font/Rackmon\ Demo.ttf);
+  font-family: "Rackmon Demo";
+  src: url(../font/Rackmon\ Demo.ttf);
 }
-body{
-    display: flexbox;
-    background: #000;
-    font-family: "Rackmon Demo", sans-serif;
+body {
+  display: flexbox;
+  background: #000;
+  font-family: "Rackmon Demo", sans-serif;
 }
-/*-------------------- Barra de navegacion------------------------ */
-.logoo {
-    position: relative;
-    width: 150px;
-}
-.navbar-nav{
-flex: 1;
-display: flex;
-justify-content: space-evenly;
-font-size: 1.8rem;
-}
-/*----------------------------- Fin barra navegacion -----------------------*/
-/* ----------------------------grilla----------------------------------- */
-.tituloconteiner{
-display: flex;
-justify-content: center;
-color: white;
-padding: 1rem;
-}
-h1,h2{
-    border-left: solid gray; 
-    padding-left: 1rem;
-    font-size: 4rem;
-}
-.card{
-    padding: 1rem;
-    box-shadow: 0 0 10px #8d8d8d;
-    font-size: 1.5rem;
-}
-/* --------------------footer---------------- */
-footer{
-    background-color: beige;
-    display: flex;
-    padding: 2%;
-    font-size: 1.2rem;
-}
-/* -----------------------------------------Grilla juegos----------------------------------- */
 
-.cardsps5{
-    width: 14rem;
+nav .logoo {
+  position: relative;
+  width: 150px;
 }
-.g-4 {display: flex;
-    width: 70%;} 
-/* ------------------------------------------contactos-------------------------------------------- */
+nav .navbar-nav {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.8rem;
+}
 
-.col-infor{
-    display: inline-block;
-    justify-content: center;
-    font-size: 2rem;
-    color: white;
-    padding-left: 2rem;
-    padding-top: 1.5rem;
+main {
+  /* GRILLA JEUGOS */
+  /* CONTACTOS */
 }
-.conteinerlocal{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+main .tituloconteiner {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 1rem;
 }
-label{
-    font-size: 1.8rem;
-    color: rgb(0, 0, 0);
+main .tituloconteiner h1 {
+  border-left: solid gray;
+  padding-left: 1rem;
+  font-size: 4rem;
 }
-.containerformulario{
-    background-color: #8d8d8d;
-    width: 50%;
-    height: 50%;
-    display: flex;
-justify-content: center;
-    border-radius: 10px;
-    box-shadow:  2px 2px 2px #696464;
-    padding: 0px 10px 10px 10px;
+main .tituloconteiner h2 {
+  border-left: solid gray;
+  padding-left: 1rem;
+  font-size: 4rem;
 }
-.btn-primaryenviar{
-    width: 30%;
-    font-size: 1.5rem;
+main .card {
+  padding: 1rem;
+  box-shadow: 0 0 10px #8d8d8d;
+  font-size: 1.5rem;
 }
-.form-check-inline{
-display: flex;
-justify-content: center;
-align-items: center;
+main .g-4 {
+  display: flex;
+  width: 70%;
 }
-.form-check-label{
-    display: flex;
-text-align: center;
-padding-left: 5px;
+main .conteinerlocal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+main .conteinerlocal .col-infor {
+  display: inline-block;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+}
+
+section .containerformulario {
+  background-color: #8d8d8d;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #696464;
+  padding: 0px 10px 10px 10px;
+}
+section .containerformulario label {
+  font-size: 1.8rem;
+  color: rgb(0, 0, 0);
+}
+section .containerformulario .btn-primaryenviar {
+  width: 30%;
+  font-size: 1.5rem;
+}
+section .containerformulario .btn-primaryenviar .form-check-inline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .containerformulario .btn-primaryenviar .form-check-inline .form-check-label {
+  display: flex;
+  text-align: center;
+  padding-left: 5px;
+}
+
+footer {
+  background-color: beige;
+  display: flex;
+  padding: 2%;
+  font-size: 1.2rem;
+}
+footer .logoo {
+  position: relative;
+  width: 150px;
+}
+
+/*# sourceMappingURL=style.css.map */

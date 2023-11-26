@@ -1,28 +1,10 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-    }
-@font-face {
-    font-family: "Rackmon Demo";
-    src: url(../font/Rackmon\ Demo.ttf);
-}
-body{
-    display: flexbox;
-    background: #000;
-    font-family: "Rackmon Demo", sans-serif;
-}
+
 /*-------------------- Barra de navegacion------------------------ */
 .logoo {
-    position: relative;
-    width: 150px;
+
 }
 .navbar-nav{
-flex: 1;
-display: flex;
-justify-content: space-evenly;
-font-size: 1.8rem;
+
 }
 /*----------------------------- Fin barra navegacion -----------------------*/
 /* ----------------------------grilla----------------------------------- */
@@ -75,16 +57,7 @@ label{
     font-size: 1.8rem;
     color: rgb(0, 0, 0);
 }
-.containerformulario{
-    background-color: #8d8d8d;
-    width: 50%;
-    height: 50%;
-    display: flex;
-justify-content: center;
-    border-radius: 10px;
-    box-shadow:  2px 2px 2px #696464;
-    padding: 0px 10px 10px 10px;
-}
+
 .btn-primaryenviar{
     width: 30%;
     font-size: 1.5rem;
