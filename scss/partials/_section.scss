@@ -1,0 +1,30 @@
+section{
+    .containerformulario{
+        background-color: #8d8d8d;
+        width: 50%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        box-shadow:  2px 2px 2px #696464;
+        padding: 0px 10px 10px 10px;
+        label{
+            font-size: 1.8rem;
+            color: rgb(0, 0, 0);
+            .btn-primaryenviar{
+            width: 30%;
+            font-size: 1.5rem;
+            .form-check-inline{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .form-check-label{
+                    display: flex;
+                    text-align: center;
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+}
+}

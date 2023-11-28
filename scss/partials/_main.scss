@@ -1,0 +1,43 @@
+main{ 
+    .tituloconteiner {
+        display: flex;
+        justify-content: center;
+        color: white;
+        padding: 1rem;
+        h1{
+            border-left: solid gray; 
+            padding-left: 1rem;
+            font-size: 4rem;
+        }
+        h2{
+            border-left: solid gray; 
+            padding-left: 1rem;
+            font-size: 4rem;
+    }
+    }
+    .card{
+        padding: 1rem;
+        box-shadow: 0 0 10px #8d8d8d;
+        font-size: 1.5rem;
+    }
+/* GRILLA JEUGOS */
+.cardsps5{
+    width: 14rem;
+}
+.g-4 {display: flex;
+    width: 70%;} 
+/* CONTACTOS */
+.conteinerlocal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+.col-infor{
+        display: inline-block;
+        justify-content: center;
+        font-size: 2rem;
+        color: white;
+        padding-left: 2rem;
+        padding-top: 1.5rem;
+    }
+}
+}
