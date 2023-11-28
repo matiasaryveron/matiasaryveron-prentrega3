@@ -11,7 +11,7 @@
 }
 body {
   display: flexbox;
-  background: #000;
+  background-image: linear-gradient(to right top, #000000, #121212, #1d1d1d, #282828, #343434, #343434, #343434, #343434, #282828, #1d1d1d, #121212, #000000);
   font-family: "Rackmon Demo", sans-serif;
 }
 
@@ -24,6 +24,11 @@ nav .navbar-nav {
   display: flex;
   justify-content: space-evenly;
   font-size: 1.8rem;
+}
+nav .nav-link:hover {
+  background-image: linear-gradient(to right, #e0e0e0, #d3d3d3, #c6c6c6, #bababa, #adadad, #ababab, #aaa9a9, #a8a7a7, #b0afb0, #b8b8b8, #c1c0c1, #c9c9c9);
+  transition: all 0.4s;
+  border-radius: 20px;
 }
 
 main {
