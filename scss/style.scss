@@ -1,38 +1,7 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-    }
-@font-face {
-    font-family: "Rackmon Demo";
-    src: url(../font/Rackmon\ Demo.ttf);
-}
-body{
-    display: flexbox;
-    background-image: linear-gradient(to right top, #000000, #121212, #1d1d1d, #282828, #343434, #343434, #343434, #343434, #282828, #1d1d1d, #121212, #000000);
-    font-family: "Rackmon Demo", sans-serif;
-}
-nav{
-    .logoo {
-        position: relative;
-        width: 150px;
-    }
-    .navbar-nav{
-        flex: 1;
-        display: flex;
-        justify-content: space-evenly;
-        font-size: 1.8rem;
-    }
+@import './partials/reset';
+@import './partials/body';
+@import './partials/navbar';
 
-.nav-link{
-    &:hover{
-        background-image: linear-gradient(to right, #e0e0e0, #d3d3d3, #c6c6c6, #bababa, #adadad, #ababab, #aaa9a9, #a8a7a7, #b0afb0, #b8b8b8, #c1c0c1, #c9c9c9);
-        transition: all .4s ease;
-        border-radius: 20px;
-    }
-}
-}
 main{ 
     .tituloconteiner {
         display: flex;
