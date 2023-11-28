@@ -28,12 +28,12 @@ nav{
 .nav-link{
     &:hover{
         background-image: linear-gradient(to right, #e0e0e0, #d3d3d3, #c6c6c6, #bababa, #adadad, #ababab, #aaa9a9, #a8a7a7, #b0afb0, #b8b8b8, #c1c0c1, #c9c9c9);
-        transition: all .4s;
+        transition: all .4s ease;
         border-radius: 20px;
     }
 }
 }
-main{
+main{ 
     .tituloconteiner {
         display: flex;
         justify-content: center;
@@ -48,7 +48,7 @@ main{
             border-left: solid gray; 
             padding-left: 1rem;
             font-size: 4rem;
-        }
+    }
     }
     .card{
         padding: 1rem;
@@ -56,7 +56,9 @@ main{
         font-size: 1.5rem;
     }
 /* GRILLA JEUGOS */
-
+.cardsps5{
+    width: 14rem;
+}
 .g-4 {display: flex;
     width: 70%;} 
 /* CONTACTOS */

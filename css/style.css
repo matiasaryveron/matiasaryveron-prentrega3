@@ -27,7 +27,7 @@ nav .navbar-nav {
 }
 nav .nav-link:hover {
   background-image: linear-gradient(to right, #e0e0e0, #d3d3d3, #c6c6c6, #bababa, #adadad, #ababab, #aaa9a9, #a8a7a7, #b0afb0, #b8b8b8, #c1c0c1, #c9c9c9);
-  transition: all 0.4s;
+  transition: all 0.4s ease;
   border-radius: 20px;
 }
 
@@ -55,6 +55,9 @@ main .card {
   padding: 1rem;
   box-shadow: 0 0 10px #8d8d8d;
   font-size: 1.5rem;
+}
+main .cardsps5 {
+  width: 14rem;
 }
 main .g-4 {
   display: flex;
